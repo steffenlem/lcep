@@ -40,6 +40,8 @@ You can replace ``all`` with specific GPU ids (e.g. 0) if desired.
 Parameters
 +++++++++++++++
 
+- training-data               Path to the training data csv file                          ['train.csv': string]
+- test-data                   Path to the test data csv file                              ['test.csv':  string]
 - cuda:                       Whether to train with CUDA support (=GPU)                   ['True': string]
 - max_epochs:                 Number of epochs to train                                   [25:        int]
 - general-seed:               Python, Random, Numpy seed                                  [0:         int]
